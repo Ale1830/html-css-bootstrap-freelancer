@@ -49,4 +49,11 @@
  .at_portfolio_item img{
      width: 100%;
  }
+
+ /* section  about */
+
+.at_section-about{
+    background-color: #1ABC9C;
+    color: #fff;
+}
    
