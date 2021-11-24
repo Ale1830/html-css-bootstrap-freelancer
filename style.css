@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.at_element_img{
+    width: 250px;
+}
+
+.at_section_green{
+    background-color: #1ABC9C;
+    color: #fff;
+}
+
+.at_star{
+    max-width: 400px;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.at_star:before,
+.at_star:after{
+    content: "";
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    line-height: 4px;
+    vertical-align: middle;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.at_portfolio_item{
+    
+}
