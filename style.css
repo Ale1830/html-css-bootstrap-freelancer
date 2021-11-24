@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* section start bootstrap  */
 
 .at_element_img{
     width: 250px;
 }
 
-.at_section_green{
+.at_section-green{
     background-color: #1ABC9C;
     color: #fff;
 }
@@ -23,7 +24,7 @@
 .at_star:after{
     content: "";
     display: inline-block;
-    width: 15%;
+    width: 100px;
     height: 4px;
     line-height: 4px;
     vertical-align: middle;
@@ -31,6 +32,21 @@
     border-radius: 2px;
 }
 
-.at_portfolio_item{
-    
-}
+/* section portfolio  */
+
+ .at_star_black:before,
+ .at_star_black:after{
+        content: "";
+        display: inline-block;
+        width: 80px;
+        height: 4px;
+        line-height: 4px;
+        vertical-align: middle;
+        background-color: black;
+        border-radius: 2px;
+    }
+
+ .at_portfolio_item img{
+     width: 100%;
+ }
+   
