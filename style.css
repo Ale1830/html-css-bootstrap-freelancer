@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* navbar  */
+
+.at_navbar{
+  background-color: #1c2625;
+  color: #fff;
+}
 /* section start bootstrap  */
 
 .at_element_img{
@@ -71,4 +77,12 @@
 
 .at_link_green{
     color:#1ABC9C ;
+}
+
+
+/* footer  */
+
+.at_footer{
+   background-color:  #1c2625;
+   color: #fff;
 }
